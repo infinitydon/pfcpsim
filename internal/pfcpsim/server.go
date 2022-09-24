@@ -9,8 +9,8 @@ import (
         "net"
 
         "github.com/c-robinson/iplib"
-        pb "github.com/omec-project/pfcpsim/api"
-        "github.com/omec-project/pfcpsim/pkg/pfcpsim"
+        pb "github.com/infinitydon/pfcpsim/api"
+        "github.com/infinitydon/pfcpsim/pkg/pfcpsim"
         "github.com/infinitydon/pfcpsim/session"
         log "github.com/sirupsen/logrus"
         ieLib "github.com/wmnsk/go-pfcp/ie"
