@@ -6,7 +6,7 @@ package pfcpsim
 import (
 	"sync"
 
-	"github.com/omec-project/pfcpsim/pkg/pfcpsim"
+	"github.com/infinitydon/pfcpsim/pkg/pfcpsim"
 )
 
 var (
