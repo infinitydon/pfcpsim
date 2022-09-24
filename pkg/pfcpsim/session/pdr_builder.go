@@ -132,7 +132,7 @@ func (b *pdrBuilder) BuildPDR() *ie.IE {
 	if b.direction == downlink {
 		pdi := ie.NewPDI(
 			ie.NewSourceInterface(ie.SrcInterfaceCore),
-			ie.NewNetworkInstance("internet"),
+			ie.NewNetworkInstanceFQDN("internet"),
 			ie.NewUEIPAddress(0x2, b.ueAddress, "", 0, 0),
 		)
 
