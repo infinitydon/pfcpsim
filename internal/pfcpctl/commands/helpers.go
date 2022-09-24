@@ -4,8 +4,8 @@
 package commands
 
 import (
-	pb "github.com/omec-project/pfcpsim/api"
-	"github.com/omec-project/pfcpsim/internal/pfcpctl/config"
+	pb "github.com/infinitydon/pfcpsim/api"
+	"github.com/infinitydon/pfcpsim/internal/pfcpctl/config"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
