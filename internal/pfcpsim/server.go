@@ -11,7 +11,7 @@ import (
 	"github.com/c-robinson/iplib"
 	pb "github.com/omec-project/pfcpsim/api"
 	"github.com/omec-project/pfcpsim/pkg/pfcpsim"
-	"github.com/omec-project/pfcpsim/pkg/pfcpsim/session"
+	"github.com/infinitydon/pfcpsim/pkg/pfcpsim/session"
 	log "github.com/sirupsen/logrus"
 	ieLib "github.com/wmnsk/go-pfcp/ie"
 	"google.golang.org/grpc/codes"
