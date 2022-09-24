@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/omec-project/pfcpsim/pkg/pfcpsim"
+	"github.com/infinitydon/pfcpsim/pkg/pfcpsim"
 	log "github.com/sirupsen/logrus"
 	"github.com/wmnsk/go-pfcp/ie"
 	"google.golang.org/grpc/codes"
