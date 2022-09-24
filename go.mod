@@ -1,4 +1,4 @@
-module github.com/omec-project/pfcpsim
+module github.com/infinitydon/pfcpsim
 
 go 1.16
 
