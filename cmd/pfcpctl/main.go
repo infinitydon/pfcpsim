@@ -9,8 +9,8 @@ import (
 	"path"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/omec-project/pfcpsim/internal/pfcpctl/commands"
-	"github.com/omec-project/pfcpsim/internal/pfcpctl/config"
+	"github.com/infinitydon/pfcpsim/internal/pfcpctl/commands"
+	"github.com/infinitydon/pfcpsim/internal/pfcpctl/config"
 )
 
 func main() {
