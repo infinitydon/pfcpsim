@@ -211,8 +211,6 @@ func (P pfcpSimService) CreateSession(ctx context.Context, request *pb.CreateSes
                                 WithID(uplinkFarID).
                                 WithAction(session.ActionForward).
                                 WithDstInterface(ieLib.DstInterfaceCore).
-                                WithTEID(uplinkTEID).
-                                WithDownlinkIP(upfN3Address).
                                 WithMethod(session.Create).
                                 BuildFAR()
 
@@ -220,7 +218,9 @@ func (P pfcpSimService) CreateSession(ctx context.Context, request *pb.CreateSes
                                 WithID(downlinkFarID).
                                 WithAction(session.ActionForward).
                                 WithMethod(session.Create).
-                                WithDstInterface(ieLib.DstInterfaceAccess).
+                                WithDstInterface(ieLib.DstInterfaceAccess).                    
+                                WithTEID(uplinkTEID).
+                                WithDownlinkIP(upfN3Address).
                                 WithZeroBasedOuterHeaderCreation().
                                 BuildFAR()
 
