@@ -16,8 +16,8 @@ import (
 
 const (
 	PFCPStandardPort       = 8805
-	DefaultHeartbeatPeriod = 2
-	DefaultResponseTimeout = 2 * time.Second
+	DefaultHeartbeatPeriod = 1
+	DefaultResponseTimeout = 1 * time.Second
 )
 
 // PFCPClient enables to simulate a client sending PFCP messages towards the UPF.
